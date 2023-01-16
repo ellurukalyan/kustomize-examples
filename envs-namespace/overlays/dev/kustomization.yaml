@@ -7,6 +7,8 @@ patchesStrategicMerge:
 namespace: demo-dev
 resources:
 - ./namespace.yaml
+generatorOptions:
+  disableNameSuffixHash: true # this flag is used to avoid creation of new configmap, instead it will be modified when file context is changed
 configMapGenerator:
 - name: application-config
   files:
