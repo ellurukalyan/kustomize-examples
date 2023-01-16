@@ -3,5 +3,3 @@ kind: ConfigMap
 metadata:
   name: nginx-index-html
   namespace: demo-dev
-data:
-  ui_properties_file_name: "index.html"
