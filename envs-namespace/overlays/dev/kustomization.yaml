@@ -8,6 +8,6 @@ namespace: demo-dev
 resources:
 - ./namespace.yaml
 configMapGenerator:
-- name: demo-dev
+- name: application-config
   files:
   - index.html
