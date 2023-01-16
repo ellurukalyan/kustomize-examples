@@ -4,4 +4,4 @@ metadata:
   name: nginx-index-html
   namespace: demo-dev
 data:
-  index.html
+  ui_properties_file_name: "index.html"
