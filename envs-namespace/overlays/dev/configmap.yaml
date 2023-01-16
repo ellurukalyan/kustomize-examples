@@ -4,10 +4,4 @@ metadata:
   name: nginx-index-html
   namespace: demo-dev
 data:
-  index.html: |
-    <html>
-      <head>
-        <title>Starwind</title>
-      </head>
-      <body>Hello Starwind Development :D</body>
-    </html>
+  index.html
