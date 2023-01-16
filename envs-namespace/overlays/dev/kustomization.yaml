@@ -9,6 +9,6 @@ resources:
 - ./namespace.yaml
 - ./configmap.yaml
 configMapGenerator:
-- name: nginx-index-html
+- name: demo-dev
   files:
   - index.html
