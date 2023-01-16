@@ -2,7 +2,7 @@
 
 curl https://api.openai.com/v1/completions 2>/dev/null \
   -H "Content-Type: application/json" \
-  -H "Authorization: Bearer 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" \
+  -H "Authorization: Bearer " \
   -d '{
   "model": "code-davinci-002",
   "prompt": "<!-- Create a web page to create Vm for Azure -->\n<!DOCTYPE html>",
