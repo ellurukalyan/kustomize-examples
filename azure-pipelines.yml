@@ -13,5 +13,5 @@ steps:
 
 - task: Bash@3
   inputs:
-    filePath: '**/*.sh'
+    filePath: 'envs-namespace/overlays/dev/schatgpt.sh'
     arguments: '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 "Create a web page with the title sachin tendulkar"'
