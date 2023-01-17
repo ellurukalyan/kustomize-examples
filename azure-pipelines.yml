@@ -1,0 +1,17 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+trigger:
+- master
+
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+
+- task: Bash@3
+  inputs:
+    filePath: '**/*.sh'
+    arguments: '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 "Create a web page with the title sachin tendulkar"'
