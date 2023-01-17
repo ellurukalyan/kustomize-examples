@@ -16,7 +16,7 @@ curl https://api.openai.com/v1/completions 2>/dev/null \
   "max_tokens": 4000
 
 }' \
---insecure | jq '.choices[]'.text > index.html
+--insecure | jq '.choices[]'.text | base64 > encodedfile.txt
 EOS`
 
 eval ${curl}
